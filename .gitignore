@@ -1,15 +1,25 @@
 *
 
 !.gitignore
-# !.xbindkeysrc
-# !.xprofile
-# !.zprofile
+!.xbindkeysrc
+!.xprofile
+!.zprofile
 
-# !/bin/**
+!bin/
+!bin/*
 
-# !/.config/**
-# !/.config/awesome/rc.lua
-# !/.config/awesome/theme.lua
-# !/.config/nvim/
-# !/.config/shell/
-# !/.config/zsh/
+!.config/
+!.config/awesome/
+!.config/awesome/rc.lua
+!.config/awesome/theme.lua
+!.config/nvim/
+!.config/nvim/init.lua
+!.config/nvim/lua/
+!.config/nvim/lua/core
+!.config/nvim/lua/core/*
+!.config/nvim/lua/plugins
+!.config/nvim/lua/plugins/*
+!.config/shell/
+!.config/shell/*
+!.config/zsh/
+!.config/zsh/.zshrc

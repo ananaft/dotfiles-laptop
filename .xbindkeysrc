@@ -1,0 +1,24 @@
+# Increase volume
+#"pamixer -i 50"
+#   XF86AudioRaiseVolume
+
+# Decrease volume
+#"pamixer -d 50"
+#   XF86AudioLowerVolume
+
+# Toggle mute
+#"pamixer -t"
+#   XF86AudioMute
+
+# Mute microphone
+"pactl set-source-mute @DEFAULT_SOURCE@ toggle"
+   XF86AudioMicMute
+
+# Lower brightness
+"brightnessctl set 10%-"
+   XF86MonBrightnessDown
+
+# Increase brightness
+"brightnessctl set +10%"
+   XF86MonBrightnessUp
+
