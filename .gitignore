@@ -1,0 +1,15 @@
+*
+
+!.gitignore
+# !.xbindkeysrc
+# !.xprofile
+# !.zprofile
+
+# !/bin/**
+
+# !/.config/**
+# !/.config/awesome/rc.lua
+# !/.config/awesome/theme.lua
+# !/.config/nvim/
+# !/.config/shell/
+# !/.config/zsh/
