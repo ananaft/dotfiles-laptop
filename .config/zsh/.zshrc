@@ -26,6 +26,7 @@ setopt auto_param_slash # when a dir is completed, add a / instead of a trailing
 setopt no_case_glob no_case_match # make cmp case insensitive
 setopt globdots # include dotfiles
 setopt extended_glob # match ~ # ^
+setopt ksh_arrays # use bash array indexing
 
 # fzf setup
 source <(fzf --zsh)
