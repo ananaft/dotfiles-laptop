@@ -16,7 +16,7 @@ map("", "<leader>w", ":w<CR>") -- write file
 map("", "<leader>q", ":q<CR>") -- close file
 map("", "<leader>Q", ":q!<CR>") -- close file without saving
 map('n', '<leader>t', '<CMD>lua require("FTerm").toggle()<CR>') -- open floating terminal
-map('t', '<leader>t', '<C-\\><C-n><CMD>lua require("FTerm").toggle()<CR>') -- close floating terminal
+map('t', '<A-t>', '<C-\\><C-n><CMD>lua require("FTerm").toggle()<CR>') -- close floating terminal
 
 -- search-replace mappings
 map('n', '<leader>ros', ':SearchReplaceSingleBufferOpen<CR>')
