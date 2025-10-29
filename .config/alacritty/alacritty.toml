@@ -1,0 +1,41 @@
+[window]
+dimensions = { columns = 80, lines = 24 }
+padding = { x = 5, y = 5 }
+opacity = 0.85
+
+[font]
+normal = { family = "CommitMono Nerd Font", style = "regular" }
+size = 9
+
+[colors.primary]
+foreground = "#ff94cb"
+
+[colors.normal]
+red = "#d45a92"
+green = "#896cd9"
+yellow = "#d9b100"
+blue = "#4a26c9"
+magenta = "#9a2b60"
+cyan = "#d9c875"
+white = "#d9d9d9"
+
+[colors.bright]
+red = "#fa8ec1"
+green = "#bea7ff"
+yellow = "#ffd000"
+blue = "#7452f0"
+magenta = "#bf5287"
+cyan = "#fff2b1"
+white = "#ffffff"
+
+[colors.search]
+matches = { foreground = "#ffd000", background = "#7452f0" }
+
+[cursor]
+style = { shape = "Underline", blinking = "On" }
+blink_interval = 600
+blink_timeout = 0
+vi_mode_style = { shape = "Block", blinking = "Off" }
+
+[mouse]
+hide_when_typing = true

@@ -9,6 +9,8 @@
 !bin/*
 
 !.config/
+!.config/alacritty/
+!.config/alacritty/*
 !.config/awesome/
 !.config/awesome/rc.lua
 !.config/awesome/theme.lua
