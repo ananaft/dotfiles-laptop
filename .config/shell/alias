@@ -3,3 +3,4 @@
 alias ls='ls --color=auto --almost-all'
 alias grep='grep --color=auto'
 alias n='nvim'
+z() { zathura --fork "$@" }
