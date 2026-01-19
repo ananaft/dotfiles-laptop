@@ -16,6 +16,7 @@ autoload -U colors && colors
 # cmp opts
 zstyle ':completion:*' menu select # tab opens cmp menu
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS} ma=0\;33 # colorize cmp menu
+bindkey -M menuselect '^[[Z' reverse-menu-complete
 
 # main opts
 setopt append_history inc_append_history share_history # better history
