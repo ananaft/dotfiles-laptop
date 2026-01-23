@@ -5,8 +5,19 @@ vim.api.nvim_create_autocmd({"VimLeave", "VimSuspend"},{
 
 -- disable automatic comment on newline
 vim.api.nvim_create_autocmd("FileType", {
-		pattern = "*",
-		callback = function()
+	pattern = "*",
+	callback = function()
 		vim.opt_local.formatoptions:remove({ "c", "r", "o" })
-		end,
+	end,
+})
+
+-- start treesitter
+vim.api.nvim_create_autocmd("FileType", {
+	pattern = {
+		"c", "h", "sh", "lua", "py", "js", "ts",
+		"html", "css", "json", "jsonc", "markdown", "tex"
+	},
+	callback = function()
+		vim.treesitter.start()
+	end,
 })
