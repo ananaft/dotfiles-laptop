@@ -24,5 +24,7 @@ bin/exercism
 !.config/nvim/lua/plugins/*
 !.config/shell/
 !.config/shell/*
+!.config/zathura/
+!.config/zathura/zathurarc
 !.config/zsh/
 !.config/zsh/.zshrc
