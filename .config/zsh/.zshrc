@@ -1,5 +1,5 @@
 # ssh setup
-eval $(keychain --eval ~/.ssh/id_rsa ~/.ssh/id_ed25519 ~/.ssh/id_ed25519_desktop) 
+eval $(keychain --quiet --eval ~/.ssh/id_rsa ~/.ssh/id_ed25519 ~/.ssh/id_ed25519_desktop) 
 
 # mute audio on startup
 pamixer -m

@@ -291,6 +291,12 @@ globalkeys = gears.table.join(
 		function () awful.spawn(terminal) end,
         {description = "open a terminal", group = "launcher"}
 	),
+	awful.key({modkey, "Shift" }, "Return",
+		function () awful.spawn.with_shell(
+			terminal..' --working-directory=$("$HOME"/bin/cwd_awesome.sh)'
+		) end,
+		{description = "open terminal in cwd", group = "launcher"}
+	),
 
 	-- Focus windows
     awful.key({ modkey, }, "h",
