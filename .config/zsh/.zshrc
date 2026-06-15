@@ -35,6 +35,14 @@ bindkey "^r" fzf-history-widget
 bindkey "^j" history-search-forward
 bindkey "^k" history-search-backward
 
+# easier command editing
+bindkey "^[[1;5D" backward-word # control + left
+bindkey "^[[1;5C" forward-word # control + right
+bindkey "^[[3~" delete-char # delete
+bindkey "^[[H" beginning-of-line # home
+bindkey "^[[F" end-of-line # end
+bindkey "^H" backward-delete-word # control + backspace
+
 # history opts
 HISTSIZE=1000000
 SAVEHIST=1000000
