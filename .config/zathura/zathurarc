@@ -1,1 +1,4 @@
 set selection-clipboard clipboard
+set highlight-color rgba(137,108,217,0.6)
+set highlight-active-color rgba(250,142,193,0.6) 
+set highlight-fg rgba(154,43,96,1)
