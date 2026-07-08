@@ -26,6 +26,7 @@ Plug("romgrk/barbar.nvim") -- improved tabs
 Plug("nvim-lualine/lualine.nvim") -- improved status line
 Plug("numToStr/FTerm.nvim") -- floating terminal
 Plug("roobert/search-replace.nvim") -- better search and replace
+Plug("romus204/tree-sitter-manager.nvim") -- treesitter install manager
 
 vim.call("plug#end")
 
@@ -44,3 +45,4 @@ require("plugins.barbar")
 require("plugins.lualine")
 require("plugins.FTerm")
 require("plugins.search-replace")
+require("plugins.tree-sitter-manager")
