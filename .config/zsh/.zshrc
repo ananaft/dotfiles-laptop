@@ -51,6 +51,6 @@ HISTCONTROL=ignoreboth # consecutive duplicates & commands starting with space a
 
 # prompt
 NEWLINE=$'\n'
-PROMPT="${NEWLINE}%K{#896cd9}%F{#ff94cb} %n %K{#7452f0}%F{#ffffff} %~ %f%k ❯ "
+PROMPT="${NEWLINE}%K{#896cd9}%F{#ff94cb} %n %K{#7452f0}%F{#ffffff} %3~ %f%k ❯ "
 
 
