@@ -3,5 +3,11 @@
 alias ls='ls --color=auto --almost-all'
 alias grep='grep --color=auto'
 alias n='nvim'
+
+# Functrions
 z() { zathura --fork "$@" 2>/dev/null }
 gccfh() { gcc -fdiagnostics-color=always -g -std=c99 -Wall -Wextra -pedantic -Wno-unused-parameter "$1" -o "${1::-2}" }
+screenshot() {
+	date_time="$(date '+%Y%m%d-%H%M%S')"
+	maim -s -m 6 > "screenshot_${date_time}.png"
+}
