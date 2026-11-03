@@ -23,6 +23,11 @@ local options = {
 	showmode = false, -- handled by lualine
 	showcmd = false,
 	shm = "ltToOCFSs", -- Ss-flags disable vim search messages 
+	-- tree-sitter folding
+	foldmethod = "expr",
+	foldexpr = "v:lua.vim.treesitter.foldexpr()",
+	foldenable = true,
+	foldlevel = 99,
 }
 
 for k, v in pairs(options) do
